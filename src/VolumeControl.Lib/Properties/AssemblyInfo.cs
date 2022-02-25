@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VolumeControl")]
+[assembly: AssemblyTitle("VolumeControl.Lib")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("VolumeControl")]
+[assembly: AssemblyProduct("VolumeControl.Lib")]
 [assembly: AssemblyCopyright("Copyright ©  Daniel Lutz 2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("66e354e0-5e1e-4523-8d85-e8936dac1a8d")]
+[assembly: Guid("e176faf6-f748-433f-b2af-e058b6040ee9")]
 
 // Version information for an assembly consists of the following four values:
 //

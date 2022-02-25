@@ -2,13 +2,13 @@
 
 namespace VolumeControl
 {
-    internal static class VolumeCommandParser
+    public static class VolumeCommandParser
     {
-        private const string ARGUMENT_VOLUME_DOWN = "-";
+        private const string ARGUMENT_VOLUME_DOWN = "down";
 
-        private const string ARGUMENT_VOLUME_MUTE = "0";
+        private const string ARGUMENT_VOLUME_MUTE = "mute";
 
-        private const string ARGUMENT_VOLUME_UP = "+";
+        private const string ARGUMENT_VOLUME_UP = "up";
 
         public static VolumeCommand Parse(string command)
         {

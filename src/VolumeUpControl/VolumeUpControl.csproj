@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{66E354E0-5E1E-4523-8D85-E8936DAC1A8D}</ProjectGuid>
+    <ProjectGuid>{8DF91C01-1D66-42EC-BA25-E4228D0D9745}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>VolumeControl</RootNamespace>
-    <AssemblyName>VolumeControl</AssemblyName>
+    <RootNamespace>VolumeUpControl</RootNamespace>
+    <AssemblyName>VolumeUpControl</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -56,7 +56,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

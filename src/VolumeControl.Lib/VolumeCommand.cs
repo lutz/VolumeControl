@@ -1,6 +1,6 @@
 ﻿namespace VolumeControl
 {
-    internal enum VolumeCommand
+    public enum VolumeCommand
     {
         None,
         Up,

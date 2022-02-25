@@ -8,6 +8,9 @@
 ```shell
 
 start VolumeControl.exe {ARGUMENT}
+start VolumeUpControl.exe
+start VolumeDownControl.exe
+start VolumeMuteControl.exe
 
 ```
 
@@ -15,6 +18,11 @@ start VolumeControl.exe {ARGUMENT}
 
 `{Argument}` is a placeholder for three different types of commands:
 
-- `+` : emulate volume up key
-- `-` : emulate volume down key
-- `0` : emulate volume mute key
+- `up` : emulate volume up key
+- `down` : emulate volume down key
+- `mute` : emulate volume mute key
+
+## Version
+
+- `1.1`: split in lib and single versions of supported commands 
+- `1.0`: initial release

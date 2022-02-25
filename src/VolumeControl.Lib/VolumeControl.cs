@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace VolumeControl
 {
-    internal static class VolumeControl
+    public static class VolumeControl
     {
         public static void RunCommand(VolumeCommand command)
         {
