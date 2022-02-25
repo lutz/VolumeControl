@@ -8,7 +8,7 @@ namespace VolumeUpControl
         [STAThread]
         static void Main()
         {
-            VolumeControl.VolumeControl.RunCommand(VolumeCommand.Mute);
+            VolumeControl.VolumeControl.RunCommand(VolumeCommand.Up);
         }
     }
 }
