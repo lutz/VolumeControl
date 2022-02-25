@@ -24,5 +24,6 @@ start VolumeMuteControl.exe
 
 ## Version
 
+- `1.1.1`: bug fix in `VolumeUpControl` and `VolumeDownControl`
 - `1.1`: split in lib and single versions of supported commands 
 - `1.0`: initial release
