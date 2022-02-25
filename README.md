@@ -13,7 +13,7 @@ start VolumeControl.exe {ARGUMENT}
 
 ### Arguments
 
-`{Argument}` is a placeholder for three different types of commands:
+`{ARGUMENT}` is a placeholder for one of three different commands:
 
 - `+` : emulate volume up key
 - `-` : emulate volume down key
